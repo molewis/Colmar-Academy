@@ -147,16 +147,18 @@ header img {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
-  transition: background-color 0.75s linear;
+  transition: background-color 2s linear;
+  transition: color 2s linear;
   cursor: pointer;
 }
 
 .banner div button:hover {
-  background-color: rgba(0, 166, 232, 0.5);
+  background-color: white;
+  color: #004124;
 }
 
 .banner div button:active {
-  background-color: #00E8AA;
+  background-color: #004124;
 }
 
 
@@ -218,14 +220,16 @@ aside div img {
 }
 
 .course h2 {
-  color: #007434;
+  color: #0A5B36;
+  font-family: "Questrial";
   font-size: 4rem;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem;
+  margin-bottom: 0;
 }
 
 #flxcntnr div {
-  background-color: #00E8AA;
+  background-color: #0A5B36;
   width: 80%;
   margin: 1rem auto;
 }
@@ -379,13 +383,13 @@ footer span {
     font-size: 1.5rem;
     padding: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
   .quotee {
     font-size: 1rem;
     float: right;
     margin-top: 0;
-    margin-right: 40;
+    margin-bottom: 2rem;
     padding-right: 59px;
   }
   .information .main img {
@@ -448,6 +452,7 @@ footer span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 1rem;
   }
   #flxcntnr div {
     width: 20rem;
