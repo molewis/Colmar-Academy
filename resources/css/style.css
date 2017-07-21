@@ -1,41 +1,41 @@
 @font-face {
-    font-family: "Questrial";
-    src: url("../fonts/Questrial-Alegreya/Questrial/Questrial-Regular.ttf");
+  font-family: "Questrial";
+  src: url("../fonts/Questrial-Alegreya/Questrial/Questrial-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic, oblique;
+  font-family: "Alegreya";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Bold.ttf");
-    font-weight: bold;
+  font-family: "Alegreya";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Bold.ttf");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Italic.ttf");
-    font-style: italic, oblique;
+  font-family: "Alegreya";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Italic.ttf");
+  font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Regular.ttf");
+  font-family: "Alegreya";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Regular.ttf");
 }
 
 @font-face {
-    font-family: "AlegreyaBlack";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BlackItalic.ttf");
-    font-style: italic, oblique;
+  font-family: "AlegreyaBlack";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BlackItalic.ttf");
+  font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "AlegreyaBlack";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Black.ttf");
+  font-family: "AlegreyaBlack";
+  src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Black.ttf");
 }
 
 .alegreya {
@@ -74,7 +74,7 @@ footer a {
 }
 
 body {
-  background-color: #509073;
+  background-color: #277552;
 }
 
 
@@ -177,8 +177,8 @@ aside {
 }
 
 aside div {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -190,7 +190,6 @@ aside div img {
 
 .content h3 {
   font-size: 3rem;
-  color: #0063DB;
   font-weight: bold;
   margin: 1rem 0;
 }
@@ -203,7 +202,7 @@ aside div img {
 }
 
 .information.content a {
-  color: #00D5D9;
+  color: #004124;
   text-decoration: none;
   font-size: 2rem;
   font-family: Helvetica, sans-serif;
@@ -339,12 +338,12 @@ footer span {
     margin-bottom: 32px;
     background-color: #84AA99;
   }
-.banner h1 {
-  h1 {
-    font-family: "Questrial"
-    font-weight: bold;
-}
-}
+  .banner h1 {
+    h1 {
+      font-family: "Questrial"
+      font-weight: bold;
+    }
+  }
 
   .banner div button {
     font-size: 2rem;
@@ -365,23 +364,33 @@ footer span {
   }
   .information .main {
     width: 45%;
-    margin-left: 2.5%;
     margin-right: 2.5%;
   }
+
   .information .main h3 {
-    font-size: 4rem;
-    color: #004BA8;
+    font-size: 3rem;
+    font-family: "Questrial";
+    color: #004124;
     padding: 1rem;
+    margin:  0 1.5rem;
   }
+
   .information .main blockquote {
     font-size: 1.5rem;
     padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .quotee {
-    font-size: 2rem;
+    font-size: 1rem;
+    float: right;
+    margin-top: 0;
+    margin-right: 40;
+    padding-right: 59px;
   }
   .information .main img {
     width: 100%;
+    margin-bottom: 2rem;
   }
   .information aside {
     width: 50%;
@@ -398,7 +407,7 @@ footer span {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(0, 213, 217, 0.1);
+    background-color: #509073;
   }
   .content {
     display: initial;
@@ -519,69 +528,69 @@ footer span {
 /*
 /* Tablet/Phone
 @media only screen and (max-width: 920px) {
-  .banner {
-    display: flex;
-    flex-direction: column;
-  }
+.banner {
+display: flex;
+flex-direction: column;
+}
 }
 
 fonts for design
 
 @font-face {
-    font-family: "Questrial";
-    src: url("../fonts/Questrial-Alegreya/Questrial/Questrial-Regular.ttf");
+font-family: "Questrial";
+src: url("../fonts/Questrial-Alegreya/Questrial/Questrial-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic, oblique;
+font-family: "Alegreya";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BoldItalic.ttf");
+font-weight: bold;
+font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Bold.ttf");
-    font-weight: bold;
+font-family: "Alegreya";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Bold.ttf");
+font-weight: bold;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Italic.ttf");
-    font-style: italic, oblique;
+font-family: "Alegreya";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Italic.ttf");
+font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "Alegreya";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Regular.ttf");
+font-family: "Alegreya";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Regular.ttf");
 }
 
 @font-face {
-    font-family: "AlegreyaBlack";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BlackItalic.ttf");
-    font-style: italic, oblique;
+font-family: "AlegreyaBlack";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-BlackItalic.ttf");
+font-style: italic, oblique;
 }
 
 @font-face {
-    font-family: "AlegreyaBlack";
-    src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Black.ttf");
+font-family: "AlegreyaBlack";
+src: url("../fonts/Questrial-Alegreya/Alegreya/Alegreya-Black.ttf");
 }
 
 .alegreya {
-  font-family: "Alegreya"
+font-family: "Alegreya"
 }
 
 .alegreya-black {
-  font-family: "AlegreyaBlack"
+font-family: "AlegreyaBlack"
 }
 
 .questrial {
-  font-family: "Questrial"
+font-family: "Questrial"
 }
 
 html {
-  font-family: 'Alegreya', Serif;
-  font-size: 19px;
+font-family: 'Alegreya', Serif;
+font-size: 19px;
 }
 
 body {
@@ -589,26 +598,26 @@ body {
 }
 
 nav {
-  background-color: #004124;
-  color: #84AA99;
+background-color: #004124;
+color: #84AA99;
 }
 
 
 .footer {
-  background-color: #004124;
-  color: #84AA99;
-  padding: 80px 24px;
-  display: flex;
-  }
+background-color: #004124;
+color: #84AA99;
+padding: 80px 24px;
+display: flex;
+}
 
 .footer .terms {
-  display: flex;
+display: flex;
 
 }
 
 .footer ul {
-  display: flex;
-  list-style: none;
+display: flex;
+list-style: none;
 }
 
 /*
