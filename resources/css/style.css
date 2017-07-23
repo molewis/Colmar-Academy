@@ -274,7 +274,8 @@ footer span {
   text-align: left;
   margin-top: 3rem;
   margin-bottom: 0;
-  padding: 3rem;
+  padding: 3rem 0;
+  padding-left: 3rem;
 }
 
 
